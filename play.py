@@ -1,3 +1,9 @@
+import subprocess
+import os
+
+if not os.path.exists(os.path.join(os.getcwd(), 'games.db')): 
+	subprocess.run(['python', 'crt_db.py'])
+
 from load_nav import *
 
 menu_tree = [None, None, mm_menu]
