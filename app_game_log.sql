@@ -1,0 +1,36 @@
+INSERT INTO game_log (
+	game_id,
+	plr_X_name,
+	plr_X_color_int,
+	plr_O_name,
+	plr_O_color_int,
+	start_time,
+	start_board,
+	vic_chk,
+	victor_name,
+	victor_color_int,
+	three_in_a_row,
+	draw_accept,
+	resign,
+	end_board,
+	turns,
+	end_time
+)
+VALUES (
+	:game_id,
+	:plr_X_name,
+	:plr_X_color_int,
+	:plr_O_name,
+	:plr_O_color_int,
+	:start_time,
+	:start_board,
+	:vic_chk,
+	:victor_name,
+	:victor_color_int,
+	:three_in_a_row,
+	:draw_accept,
+	:resign,
+	:end_board,
+	:turns,
+	:end_time
+)
