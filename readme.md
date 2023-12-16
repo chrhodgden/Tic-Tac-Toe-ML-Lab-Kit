@@ -1,4 +1,4 @@
-#Tic Tac Toe Machine Learning Lab Kit
+# Tic Tac Toe Machine Learning Lab Kit
 
 To run this project, execute play.py.
 
